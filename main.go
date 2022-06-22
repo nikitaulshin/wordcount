@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
-	words := strings.Fields(os.Args[1])
+	src := os.Args[1]
+	words := strings.Fields(src)
 	fmt.Println(len(words))
 }
